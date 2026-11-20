@@ -4721,6 +4721,7 @@ GameObject:
   - component: {fileID: 327389037}
   - component: {fileID: 327389036}
   - component: {fileID: 327389038}
+  - component: {fileID: 327389039}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -4829,6 +4830,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &327389039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327389034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e27a74886f0f454d86a03df67d78713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpriteChanger
+  defaultSprite: {fileID: 544214414, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  hoverSprite: {fileID: -1615978678, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSprite: {fileID: -860700596, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSpriteDuration: 0.2
+  clickSound: {fileID: 0}
 --- !u!1 &331815350
 GameObject:
   m_ObjectHideFlags: 0
@@ -12386,6 +12404,7 @@ GameObject:
   - component: {fileID: 921218622}
   - component: {fileID: 921218621}
   - component: {fileID: 921218620}
+  - component: {fileID: 921218623}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -12494,6 +12513,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921218618}
   m_CullTransparentMesh: 1
+--- !u!114 &921218623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921218618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e27a74886f0f454d86a03df67d78713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpriteChanger
+  defaultSprite: {fileID: 2065515274, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  hoverSprite: {fileID: -2124065712, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSprite: {fileID: -467332924, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSpriteDuration: 0.2
+  clickSound: {fileID: 0}
 --- !u!1 &926900926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12686,6 +12722,7 @@ GameObject:
   - component: {fileID: 936397353}
   - component: {fileID: 936397352}
   - component: {fileID: 936397354}
+  - component: {fileID: 936397355}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -12794,6 +12831,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &936397355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936397350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e27a74886f0f454d86a03df67d78713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpriteChanger
+  defaultSprite: {fileID: 1836033181, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  hoverSprite: {fileID: 637361351, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSprite: {fileID: 1301723069, guid: 9140fa101eab20f49b53c9c6396cf91e, type: 3}
+  clickSpriteDuration: 0.2
+  clickSound: {fileID: 0}
 --- !u!1 &937789910
 GameObject:
   m_ObjectHideFlags: 0
