@@ -287,7 +287,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.25
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1495,7 +1495,7 @@ ParticleSystem:
     x:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1510,17 +1510,26 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.1
-          value: -1
+          time: 0.0940045
+          value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.33333334
+          outWeight: 0.5876948
         - serializedVersion: 3
-          time: 0.33762887
-          value: 1
+          time: 0.19133908
+          value: -0.4911146
+          inSlope: 0.00041975826
+          outSlope: 0.00041975826
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.5440359
+          outWeight: 0.3573157
+        - serializedVersion: 3
+          time: 0.3210104
+          value: 0.9949112
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -1566,7 +1575,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1590,7 +1599,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.15
+          time: 0.14557496
           value: 1
           inSlope: 0
           outSlope: 0
@@ -1599,8 +1608,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.2
-          value: -1
+          time: 0.25
+          value: -0.98473287
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -1655,7 +1664,7 @@ ParticleSystem:
     z:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
